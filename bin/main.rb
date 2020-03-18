@@ -1,7 +1,8 @@
 require 'telegram/bot'
+require 'dotenv'
 require_relative '../lib/jokes.rb'
 require_relative '../lib/daily_quotes.rb'
-token = '1142941945:AAEJgRnZ9KTwspfSLmNpzu2waocJH1sji3M'
+token = ENV[BotFatherToken]
 
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
