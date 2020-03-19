@@ -8,6 +8,9 @@ This is, as the name suggest, a simple Telegram bot. The goal of this project is
 to build a bot capable of: Telling a joke with your name, give you a quote. And
 Automatically give you a daily quote everyday.
 This project is my solution to Microverse's Capstone project "Build Your Own Bot".
+Feel free to clone and modify this project. Important reminder, I'm not using a database
+if you are going to have a lot of persons using your custom bot, consider using a database
+otherwise you will run into memory management problems.
 
 
 ## Built With
@@ -106,6 +109,10 @@ To see a joke with your name:
 To receive a quote:
 ```bash
 /quote
+```
+To see useful information about commands:
+```bash
+/help
 ```
 ### Run tests
 
