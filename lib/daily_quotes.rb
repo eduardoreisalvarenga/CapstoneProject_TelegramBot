@@ -9,7 +9,7 @@ class DailyQuotes
     minutes = t.min
     if hour == 14 && minutes == 33
       Dotenv.load
-      token = ENV["API_KEY"]
+      token = ENV['API_KEY']
       Telegram::Bot::Client.run(token) do |bot|
         id_array.each do |element|
           quote, author = RandomQuote.new.get_quote!
