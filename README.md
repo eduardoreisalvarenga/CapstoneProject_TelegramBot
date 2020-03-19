@@ -117,9 +117,9 @@ To receive a quote:
 
 👤 **Eduardo**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/eduardoreisalvarenga)
+- Twitter: [@twitterhandle](https://twitter.com/eduardodosrei11)
+- Linkedin: [linkedin](https://www.linkedin.com/in/eduardo-alvarenga-44204818a/)
 
 
 ## Contributing
