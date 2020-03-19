@@ -26,7 +26,7 @@ This project is my solution to Microverse's Capstone project "Build Your Own Bot
 **This set of instructions are designed to be used in linux systems.**
 
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 First of all, make sure you have git installed. If you don't have it installed
 run the following command:
@@ -36,25 +36,25 @@ $ sudo apt-get install git
 
 To clone this repository locally using ssh:
 ```bash
-git clone git@github.com:eduardoreisalvarenga/CapstoneProject_TelegramBot.git
+$ git clone git@github.com:eduardoreisalvarenga/CapstoneProject_TelegramBot.git
 ```
-<br>
+
 Or if you can't use ssh, use this command to download using HTTPS:
 ```bash
-git clone https://github.com/eduardoreisalvarenga/CapstoneProject_TelegramBot.git
+$ git clone https://github.com/eduardoreisalvarenga/CapstoneProject_TelegramBot.git
 ```
 
 ### Prerequisites
 This project was built using ruby version ruby 2.7.0p0. You will need to have at least
 ruby version 2.5 or later versions in your computer to run it. This project probably
 will work with older ruby versions, but it's not recommended. It was only tested using
-version 2.5 to 2.7.
+version 2.5 to 2.7. <br>
 To install ruby. This command will install the last version:
 ```bash
 $ sudo apt-get install ruby-full
 ```
 <br>
-To make things easier I'm using 2 gems, dotenv and telegram-bot-ruby. Dotenv is a
+To make things easier I'm using some gems: dotenv, telegram-bot-ruby, rest-client and json. Dotenv is a
 gem used to safely store my passwords, this way I will not send my private keys
 to github by mistake. telegram-bot-ruby is a gem to help you when coding telegram bots.
 
@@ -66,21 +66,29 @@ To install telegram-bot-ruby:
 ```bash
 $ gem install telegram-bot-ruby
 ```
+To install rest-client:
+```bash
+$ gem install rest-client
+```
+To install json:
+```bash
+$ gem install json
+```
 
 ### Setup
 For security reasons I've removed my private keys. You will need to follow these
-steps to add your own private key:
-Go to your Telegram app and search for @BotFather and start a new chat with it.
-Type /start
-Type /newbot
-Choose a name for your bot. You can choose any name.
-Choose a username for your bot. Same here, choose a user name.
+steps to add your own private key: <br>
+Go to your Telegram app and search for @BotFather and start a new chat with it. <br>
+Type /start <br>
+Type /newbot <br>
+Choose a name for your bot. You can choose any name. <br>
+Choose a username for your bot. Same here, choose a user name. <br>
 You will receive a message congratulating you. Save the HTTP token, you will need it to use
 the bot.
 
 ### Install
-Go to your CapstoneProject_TelegramBot and add a file called .env
-Now add this to your .env file: export API_KEY = My_API_Key_Here
+Go to your CapstoneProject_TelegramBot and add a file called .env <br>
+Now add this to your .env file: export API_KEY = My_API_Key_Here <br>
 Change My_API_Key_Here to the token you saved earlier.
 
 ### Usage
@@ -90,7 +98,7 @@ $ ruby bin/main
 ```
 You have a functional bot.
 To interact with it go to Telegram and search for your bot, remember to use the name you created
-with BotFather.
+with BotFather. <br>
 To see a joke with your name:
 ```bash
 /joke
