@@ -50,7 +50,7 @@ git clone git@github.com:eduardoreisalvarenga/CapstoneProject_TelegramBot.git
 
 ## Authors
 
-**Author1**
+👤 **Eduardo**
 
 - Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
