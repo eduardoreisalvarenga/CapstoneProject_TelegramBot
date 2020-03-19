@@ -45,7 +45,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-**Author1**
+👤 **Eduardo**
 
 - Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
