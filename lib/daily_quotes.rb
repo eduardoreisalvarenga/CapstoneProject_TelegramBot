@@ -7,7 +7,7 @@ class DailyQuotes
     t = Time.now
     hour = t.hour
     minutes = t.min
-    if hour == 13 && minutes == 14
+    if hour == 14 && minutes == 33
       Dotenv.load
       token = ENV["API_KEY"]
       Telegram::Bot::Client.run(token) do |bot|
@@ -16,6 +16,7 @@ class DailyQuotes
           bot.api.send_message(chat_id: element, text: "#{quote}\n\t- Author: #{author}")
         end
       end
+      sleep(120)
     end
   end
 end
