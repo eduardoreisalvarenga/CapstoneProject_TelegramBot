@@ -110,6 +110,10 @@ To receive a quote:
 ```bash
 /quote
 ```
+To see useful information about commands:
+```bash
+/help
+```
 ### Run tests
 
 ### Deployment
