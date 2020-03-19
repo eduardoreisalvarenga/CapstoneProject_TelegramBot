@@ -6,8 +6,8 @@ class RandomQuote
     url = 'https://type.fit/api/quotes'
     resp = RestClient.get url
     sorted = rand(0..JSON.parse(resp.body).size)
-    quote = JSON.parse(resp.body)[sorted]["text"]
-    author = JSON.parse(resp.body)[sorted]["author"]
-    return quote, author
+    quote = JSON.parse(resp.body)[sorted]['text']
+    author = JSON.parse(resp.body)[sorted]['author']
+    [quote, author]
   end
 end
