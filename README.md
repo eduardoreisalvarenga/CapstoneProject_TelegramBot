@@ -113,7 +113,7 @@ To receive a quote:
 
 
 
-## Authors
+## Author
 
 👤 **Eduardo**
 
