@@ -44,4 +44,4 @@ class Main
   end
 end
 
-Main.new.main_method
+# Main.new.main_method
