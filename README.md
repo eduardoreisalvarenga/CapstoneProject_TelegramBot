@@ -23,7 +23,7 @@ This project is my solution to Microverse's Capstone project "Build Your Own Bot
 
 ## Getting Started
 
-**This set of instructions are designed to be used in linux systems.**
+**This set of instructions is designed to be used in linux systems.**
 
 
 To get a local copy up and running follow these simple steps.
@@ -82,7 +82,7 @@ Go to your Telegram app and search for @BotFather and start a new chat with it. 
 Type /start <br>
 Type /newbot <br>
 Choose a name for your bot. You can choose any name. <br>
-Choose a username for your bot. Same here, choose a user name. <br>
+Choose a username for your bot. Same here, choose any user name. <br>
 You will receive a message congratulating you. Save the HTTP token, you will need it to use
 the bot.
 

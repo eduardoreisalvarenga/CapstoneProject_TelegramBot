@@ -11,7 +11,7 @@ Telegram::Bot::Client.run(token) do |bot|
     case message.text
     when '/quote'
       quote, author = DailyQuote.new.get_quote!
-      bot.api.send_message(chat_id: message.chat.id, text: "#{quote}\n\t-Author: #{author}")
+      bot.api.send_message(chat_id: message.chat.id, text: "#{quote}\n\t- Author: #{author}")
     when '/joke'
       bot.api.send_message(chat_id: message.chat.id, text: "What's your name?")
       bot.listen do |name|
@@ -21,6 +21,9 @@ Telegram::Bot::Client.run(token) do |bot|
         end
       end
       bot.api.send_message(chat_id: message.chat.id, text: "#{@joke}")
+    when '/help'
+      bot.api.send_message(chat_id: message.chat.id, text: "Type /joke to receive a custom joke with your name")
+      bot.api.send_message(chat_id: message.chat.id, text: "Type /quote to receive an inspirational quote")
     end
   end
 end
