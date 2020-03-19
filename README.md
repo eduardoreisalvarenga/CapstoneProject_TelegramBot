@@ -2,9 +2,9 @@
 
 > This is Microverse's Capstone Project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot/bot.PNG)
 
-This is, as the name suggest, a simple bot. The project was built using ruby. 
+This is, as the name suggest, a simple bot. The project was built using ruby.
 
 ## Built With
 
