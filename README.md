@@ -29,6 +29,11 @@ This project is my solution to Microverse's Capstone project "Build Your Own Bot
 
 To get a local copy up and running follow these simple example steps.
 
+To clone this repository locally using ssh: 
+```bash
+git clone git@github.com:eduardoreisalvarenga/CapstoneProject_TelegramBot.git
+```
+
 ### Prerequisites
 
 ### Setup
