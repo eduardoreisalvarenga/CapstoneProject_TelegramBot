@@ -1,7 +1,7 @@
 require 'rest-client'
 require 'json'
 
-class DailyQuote
+class RandomQuote
   def get_quote!
     url = 'https://type.fit/api/quotes'
     resp = RestClient.get url
