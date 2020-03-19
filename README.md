@@ -1,16 +1,20 @@
 # TheSimpleBot
 
-> This is Microverse's Capstone Project.
+> This is a simple Telegram bot
 
 ![screenshot](./screenshot/bot.PNG)
 
-This is, as the name suggest, a simple bot. The project was built using ruby.
+This is, as the name suggest, a simple Telegram bot. The goal of this project is
+to build a bot capable of: Telling a joke with your name, give you a quote. And
+Automatically give you a daily quote everyday.
+This project is my solution to Microverse's Capstone project "Build Your Own Bot".
+
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Major languages: Ruby.
+- frameworks: No frameworks were used.
+- technologies used: This project was built using just The programming language Ruby
 
 ## Live Demo
 
