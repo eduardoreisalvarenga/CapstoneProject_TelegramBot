@@ -5,11 +5,11 @@
 ![screenshot](./screenshot/bot.PNG)
 
 This is, as the name suggest, a simple Telegram bot. The goal of this project is
-to build a bot capable of: Telling a joke with your name, give you a quote. And
-Automatically give you a daily quote everyday.
+to build a bot capable of: Telling a joke with your name and give you a quote.
 This project is my solution to Microverse's Capstone project "Build Your Own Bot".
-Feel free to clone and modify this project. Important reminder, I'm not using a database
-if you are going to have a lot of persons using your custom bot, consider using a database
+Feel free to clone and modify this project.
+Important reminder, I'm not using a database if you are going to have a lot of
+persons using your custom bot, consider using a database
 otherwise you will run into memory management problems.
 
 
@@ -114,11 +114,6 @@ To see useful information about commands:
 ```bash
 /help
 ```
-### Run tests
-
-### Deployment
-
-
 
 ## Author
 
@@ -139,4 +134,4 @@ Give a ⭐️ if you like this project!!
 
 ## License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
