@@ -61,21 +61,14 @@ To make things easier I'm using some gems: dotenv, telegram-bot-ruby, rest-clien
 gem used to safely store my passwords, this way I will not send my private keys
 to github by mistake. telegram-bot-ruby is a gem to help you when coding telegram bots.
 
-To install dotenv:
+To install all the gems that I'm using you will need to have bundle.
+
 ```bash
-$ gem install dotenv
+$ gem install bundler
 ```
-To install telegram-bot-ruby:
+
 ```bash
-$ gem install telegram-bot-ruby
-```
-To install rest-client:
-```bash
-$ gem install rest-client
-```
-To install json:
-```bash
-$ gem install json
+$ bundle install
 ```
 
 ### Setup
