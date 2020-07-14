@@ -6,7 +6,7 @@ describe MessageHandler do
   let(:api) { double }
 
   context 'when quote' do
-    let(:message) { double("message", :text => "/quote") }
+    let(:message) { double('message', :text => '/quote') }
     let(:quote_message) { instance_double QuoteMessage }
 
     it 'fires QuoteMessage instance' do

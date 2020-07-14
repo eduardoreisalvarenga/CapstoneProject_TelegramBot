@@ -10,7 +10,7 @@ describe HelpMessage do
     allow(bot_klass).to receive(:bot).and_return("It's working")
     expect(bot_klass.bot).to eq("It's working")
   end 
-
+  
   it 'fires a message' do 
     api_klass = double('Api')
     allow(api_klass).to receive(:api).and_return('type /help to see command list')
