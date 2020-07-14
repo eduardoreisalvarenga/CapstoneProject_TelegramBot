@@ -108,6 +108,16 @@ To see useful information about commands:
 /help
 ```
 
+### Run tests
+When inside 'spec/lib'run Rspec tests using the following command on the terminal:
+```bash
+rspec file
+```
+example:
+```bash
+rspec help_message_spec.rb
+```
+
 ## Author
 
 👤 **Eduardo**
