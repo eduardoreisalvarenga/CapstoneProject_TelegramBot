@@ -6,5 +6,5 @@ describe JokeMessage do
   it 'fires send_message' do
     allow(bot).to receive(:text).and_return('random joke')
     expect(bot.text).to eq('random joke')
-  end 
+  end
 end

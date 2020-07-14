@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 gem 'dotenv'
-gem 'telegram-bot-ruby'
-gem 'rest-client'
 gem 'json'
+gem 'rest-client'
+gem 'telegram-bot-ruby'

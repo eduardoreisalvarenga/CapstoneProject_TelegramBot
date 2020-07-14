@@ -6,12 +6,12 @@ describe MessageHandler do
   let(:api) { double }
 
   context 'when quote' do
-    let(:message) { double('message', :text => '/quote') }
+    let(:message) { double('message', text: '/quote') }
     let(:quote_message) { instance_double QuoteMessage }
 
     it 'fires QuoteMessage instance' do
-      expect(QuoteMessage).to receive(:new).with(bot: bot, message: message).and_return quote_message 
-      expect(quote_message).to receive(:send_response) 
+      expect(QuoteMessage).to receive(:new).with(bot: bot, message: message).and_return quote_message
+      expect(quote_message).to receive(:send_response)
       subject.handle_message
     end
   end
