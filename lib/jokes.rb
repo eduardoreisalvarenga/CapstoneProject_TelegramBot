@@ -2,7 +2,7 @@ require 'rest-client'
 require 'json'
 
 class Jokes
-  attr_accessor :name
+  attr_reader :name, :resp,:joke
   def random_joke(name)
     url = 'https://api.chucknorris.io/jokes/random'
     resp = RestClient.get url
