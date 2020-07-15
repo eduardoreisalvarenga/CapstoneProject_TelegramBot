@@ -6,6 +6,7 @@ require 'dotenv'
 require_relative '../lib/message_handler'
 
 class MyRubyBot
+  attr_reader :token
   def main_method(token)
     @id_array = []
     Telegram::Bot::Client.run(token) do |bot|

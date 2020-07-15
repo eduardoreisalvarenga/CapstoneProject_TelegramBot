@@ -2,6 +2,7 @@ require 'rest-client'
 require 'json'
 
 class Jokes
+  attr_accessor :name
   def random_joke(name)
     url = 'https://api.chucknorris.io/jokes/random'
     resp = RestClient.get url

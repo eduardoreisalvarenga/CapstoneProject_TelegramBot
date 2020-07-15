@@ -2,6 +2,7 @@ require 'rest-client'
 require 'json'
 
 class RandomQuote
+  attr_reader :resp, :quote, :author
   def get_quote!
     url = 'https://type.fit/api/quotes'
     resp = RestClient.get url
