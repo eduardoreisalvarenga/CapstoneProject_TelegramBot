@@ -5,11 +5,11 @@
 ![screenshot](./screenshot/bot.PNG)
 
 This is, as the name suggest, a simple Telegram bot. The goal of this project is
-to build a bot capable of: Telling a joke with your name, give you a quote. And
-Automatically give you a daily quote everyday.
+to build a bot capable of: Telling a joke with your name and give you a quote.
 This project is my solution to Microverse's Capstone project "Build Your Own Bot".
-Feel free to clone and modify this project. Important reminder, I'm not using a database
-if you are going to have a lot of persons using your custom bot, consider using a database
+Feel free to clone and modify this project.
+Important reminder, I'm not using a database if you are going to have a lot of
+persons using your custom bot, consider using a database
 otherwise you will run into memory management problems.
 
 
@@ -61,21 +61,14 @@ To make things easier I'm using some gems: dotenv, telegram-bot-ruby, rest-clien
 gem used to safely store my passwords, this way I will not send my private keys
 to github by mistake. telegram-bot-ruby is a gem to help you when coding telegram bots.
 
-To install dotenv:
+To install all the gems that I'm using you will need to have bundle.
+
 ```bash
-$ gem install dotenv
+$ gem install bundler
 ```
-To install telegram-bot-ruby:
+
 ```bash
-$ gem install telegram-bot-ruby
-```
-To install rest-client:
-```bash
-$ gem install rest-client
-```
-To install json:
-```bash
-$ gem install json
+$ bundle install
 ```
 
 ### Setup
@@ -114,11 +107,16 @@ To see useful information about commands:
 ```bash
 /help
 ```
+
 ### Run tests
-
-### Deployment
-
-
+When inside 'spec/lib'run Rspec tests using the following command on the terminal:
+```bash
+rspec file
+```
+example:
+```bash
+rspec help_message_spec.rb
+```
 
 ## Author
 
@@ -139,4 +137,4 @@ Give a ⭐️ if you like this project!!
 
 ## License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
