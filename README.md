@@ -127,7 +127,7 @@ rspec help_message_spec.rb
 - Linkedin: [linkedin](https://www.linkedin.com/in/eduardo-alvarenga-44204818a/)
 
 ## Video
-[video](https://www.loom.com/share/7ee22e7d58234e3fa9728d303e443b70)
+[video](https://www.loom.com/)
 
 ## Contributing
 
